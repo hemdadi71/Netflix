@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+#__next {
+  @apply h-full;
+}
+html {
+  @apply h-full;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-width: 1px !important;
+  border-radius: 6px !important;
+  overflow: hidden !important;
+}
+
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-width: 2.7px !important;
+  border-color: black !important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #606060;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #919cac;
+}
