@@ -80,7 +80,4 @@ http://localhost:3000
 - Integrated MongoDB with Prisma for database operations.
 - Built reusable components and responsive UI using Tailwind CSS.
 - Implemented client-side state management and data fetching workflows.
-
 ---
-
-**Built with Next.js, React, TypeScript, and modern full-stack technologies.**
