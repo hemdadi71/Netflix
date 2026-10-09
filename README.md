@@ -1,34 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Netflix — Video Platform
 
-## Getting Started
+A full-stack streaming platform inspired by Netflix, built with modern web technologies. The application provides a responsive user interface, user authentication, movie browsing, and personalized user interactions.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- User authentication and session management
+- User registration and login
+- Browse movies and categories
+- Movie details and information pages
+- Add movies to favorites
+- Responsive design for different devices
+- Modern and interactive user interface
+- Database-driven application architecture
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### State Management & Data Fetching
+
+- TanStack React Query
+- Axios
+
+### Backend & Database
+
+- Next.js API Routes
+- MongoDB
+- Prisma ORM
+
+### Authentication & Media
+
+- NextAuth
+- Cloudinary
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+
+cd netflix
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 📌 Project Highlights
 
-To learn more about Next.js, take a look at the following resources:
+- Developed a full-stack streaming application using Next.js and React.
+- Integrated MongoDB with Prisma for database operations.
+- Built reusable components and responsive UI using Tailwind CSS.
+- Implemented client-side state management and data fetching workflows.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Built with Next.js, React, TypeScript, and modern full-stack technologies.**
