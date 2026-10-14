@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run open-browser && next dev",
-    "open-browser": "start http://localhost:3000",
+    "open-browser": "open http://localhost:3000",
     "build": "npx prisma generate && next build",
     "start": "next start",
     "lint": "next lint"

@@ -1,4 +1,3 @@
-import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import AuthContext from './context/AuthContext'
@@ -14,7 +13,10 @@ import Navbar from './components/Navbar'
 import getCurrentUser from './actions/getCurrentUser'
 import { headers } from 'next/headers'
 import Modal from './components/Modal'
-const inter = Inter({ subsets: ['latin'] })
+//@ts-ignore
+import './globals.css'
+
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
   children,
@@ -28,7 +30,7 @@ export default function RootLayout({
         <title>Netflix</title>
         <link rel="shortcut icon" href="/images/netflix-icon.png" />
       </head>
-      <body className={inter.className}>
+      <body>
         <AuthContext>
           <ToasterContext />
           <Modal />

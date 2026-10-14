@@ -169,7 +169,7 @@ const AuthForm = () => {
           </div>
         </div>
       </div>
-      {showAlert && <Alert setShowAlert={setShowAlert} />}
+      {/* {showAlert && <Alert setShowAlert={setShowAlert} />} */}
     </>
   )
 }

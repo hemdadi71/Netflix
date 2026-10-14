@@ -11,7 +11,7 @@ const nextConfig = {
       'download.blender.org',
     ],
   },
-  env: { NEXTAUTH_URL: 'https://netflix.iran.liara.run' },
+  // env: { NEXTAUTH_URL: 'https://netflix.iran.liara.run' },
 }
 
 module.exports = nextConfig
